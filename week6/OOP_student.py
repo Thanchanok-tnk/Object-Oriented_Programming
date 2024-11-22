@@ -1,6 +1,6 @@
 import random 
 
-class studer:
+class student:
     def __init__(self,ชื่อนามสกุล,ชื่อเล่น):
        self.name = ชื่อนามสกุล
        self.nikename = ชื่อเล่น
@@ -12,11 +12,11 @@ class studer:
         else :
             print(f"ชื่อ-นามสกุล : {self.name} , ชื่อเล่น : {self.nikename}, คะแนน : {self.score} : คุณตก")
 
-studer1 = studer("นันท์ธิชา ว่องย่อง","ไอซ์")
-studer2 = studer("ลินลาวดี ไกลถิ่น","สิลลี่")
-studer3 = studer("ศศิวมล แซ่ด่าน","แบม")
-studer4 = studer("วิไลวรรณ พลเดช","แมว")
-studer5 = studer("หนี่งธิดา อินทรชัย","ตัง")
+studer1 = student("นันท์ธิชา ว่องย่อง","ไอซ์")
+studer2 = student("ลินลาวดี ไกลถิ่น","สิลลี่")
+studer3 = student("ศศิวมล แซ่ด่าน","แบม")
+studer4 = student("วิไลวรรณ พลเดช","แมว")
+studer5 = student("หนี่งธิดา อินทรชัย","ตัง")
 
 studer1.scores()
 studer2.scores()

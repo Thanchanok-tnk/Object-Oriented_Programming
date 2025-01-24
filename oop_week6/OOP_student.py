@@ -24,7 +24,7 @@ class student:
             print(f"ชื่อ-นามสกุล : {self.name}, ชื่อเล่น : {self.nikename} ไม่ต้องสอบแก้ *คุณผ่านแล้ว*")
 
 student1 = student("นันท์ธิชา ว่องย่อง", "ไอซ์")
-student2 = student("ลินลาวดี ไกลถิ่น", "สิลลี่")
+student2 = student("ลินลาวดี ไกลถิ่น", "แอวลี่")
 student3 = student("ศศิวมล แซ่ด่าน", "แบม")
 student4 = student("วิไลวรรณ พลเดช", "แมว")
 student5 = student("หนี่งธิดา อินทรชัย", "ตัง")
